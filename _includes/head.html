@@ -3,7 +3,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 <!--<title>{{ site.title }}{% if page.title and page.url != "/" %} | {{ page.title }}{% endif %}</title>-->
-<title>{{ site.title }}{{ page.title }}</title>
+<title>{{ page.title }} | {{ site.title }}</title>
 <meta name="description" content="{{ site.description }}">
 
 <!-- Bootstrap & MDB -->
@@ -16,9 +16,9 @@
 <!--link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Playfair+Display:200,300,400,500,600,700|Roboto+Slab:100,300,400,500,700|Material+Icons"-->
 
 <!-- Styles -->
-<link rel="shortcut icon" href="{{ '/assets/img/favicon.ico'  | relative_url }}">
-<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+<link rel="shortcut icon" type="image/png" href="{{ "/favicon.png" | prepend: site.baseurl }}">
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | relative_url }}">
 
 <!-- Open Graph -->
