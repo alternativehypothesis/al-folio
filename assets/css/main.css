@@ -138,7 +138,7 @@ footer.sticky-bottom { border-top: 1px solid #e8e8e8; padding-top: 40px; padding
 
 .subscribe-email { font-family: 'SFProText'; font-size: 15px; display: block; padding: 10px; width: 100%; border: 1px solid #dae2e7; color: #738a94; line-height: 1em; font-weight: 400; -webkit-user-select: text; -moz-user-select: text; -ms-user-select: text; user-select: text; border-radius: 5px; transition: border-color .15s linear; -webkit-appearance: none; }
 
-.subscribe-form button { font-variant: all-petite-caps; font-family: 'ProductSans'; font-size: 15px; position: relative; display: inline-block; margin: 0 0 0 10px; padding: 0 20px; height: 43px; outline: none; color: #fff; font-size: 1rem; line-height: 39px; font-weight: 400; text-align: center; background: linear-gradient(#4fb7f0, #29a0e0 60%, #29a0e0 90%, #36a6e2); border-radius: 5px; -webkit-font-smoothing: subpixel-antialiased; }
+.subscribe-form button { font-variant: all-petite-caps; font-family: 'ProductSans'; font-size: 15px; position: relative; display: inline-block; margin: 0 0 0 10px; padding: 0 20px; height: 43px; outline: auto; color: #fff; font-size: 1rem; line-height: 39px; font-weight: 400; text-align: center; background: linear-gradient(#4fb7f0, #29a0e0 60%, #29a0e0 90%, #36a6e2); border-radius: 5px; -webkit-font-smoothing: subpixel-antialiased; }
 
 .publications { margin-top: 2rem; }
 .publications h2.year { color: #e8e8e8; border-top: 1px solid #e8e8e8; padding-top: 1rem; margin-top: 2rem; margin-bottom: -2rem; text-align: right; }
