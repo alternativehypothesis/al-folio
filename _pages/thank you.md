@@ -3,7 +3,6 @@ layout: page
 title: thank you
 permalink: /thank-you
 description:
-nav: false
 social: true
 ---
 
