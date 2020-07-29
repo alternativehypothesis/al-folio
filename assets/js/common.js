@@ -32,18 +32,22 @@ function modeSwitcher() {
         document.documentElement.setAttribute('data-theme', 'light');
         sessionStorage.setItem('theme', 'light');
         document.getElementById("theme-toggle").innerHTML = "Dark Mode";
+        document.getElementById("icon-toggle").className = "fas fa-moon";
     }   else if (theme === "light") {
         document.documentElement.setAttribute('data-theme', 'dark');
         sessionStorage.setItem('theme', 'dark');
         document.getElementById("theme-toggle").innerHTML = "Light Mode";
+        document.getElementById("icon-toggle").className = "fas fa-sun";
     } else if (systemInitiatedDark.matches) {
         document.documentElement.setAttribute('data-theme', 'light');
         sessionStorage.setItem('theme', 'light');
         document.getElementById("theme-toggle").innerHTML = "Dark Mode";
+        document.getElementById("icon-toggle").className = "fas fa-moon";
     } else {
         document.documentElement.setAttribute('data-theme', 'dark');
         sessionStorage.setItem('theme', 'dark');
         document.getElementById("theme-toggle").innerHTML = "Light Mode";
+        document.getElementById("icon-toggle").className = "fas fa-sun";
     }
 }
 
@@ -51,8 +55,10 @@ if (theme === "dark") {
     document.documentElement.setAttribute('data-theme', 'dark');
     sessionStorage.setItem('theme', 'dark');
     document.getElementById("theme-toggle").innerHTML = "Light Mode";
+    document.getElementById("icon-toggle").className = "fas fa-sun";
 } else if (theme === "light") {
     document.documentElement.setAttribute('data-theme', 'light');
     sessionStorage.setItem('theme', 'light');
     document.getElementById("theme-toggle").innerHTML = "Dark Mode";
+    document.getElementById("icon-toggle").className = "fas fa-moon";
 }

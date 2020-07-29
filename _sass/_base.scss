@@ -88,15 +88,18 @@ a, table.table a {
   box-shadow: none;
   border-bottom: 1px solid $grey-color-light;
   opacity: 0.95;
+  background:var(--main-background-color)!important;
 }
 .navbar.navbar-light {
   // Remove link decoration
+
   a {
     &:hover {
       text-decoration: none;
     }
   }
   .navbar-nav .nav-item .nav-link {
+  color:var(--main-text-color);
     &:hover {
       color: $theme-color;
     }
@@ -128,8 +131,12 @@ a, table.table a {
     font-size: 1.5rem;
     line-height: inherit;
     white-space: nowrap;
-
+    color: var(--main-text-color);
   }
+.fa-moon, .fa-sun
+{
+  color: var(--main-text-color);
+}
 
 .font-weight-bold
 {
@@ -149,7 +156,7 @@ a, table.table a {
     display: block;
     width: 22px;
     height: 2px;
-    background-color: $grey-color-dark;
+    background-color: var(--main-text-color);
     border-radius: 1px;
     margin-bottom: 4px;
     transition: all 0.2s;
@@ -466,4 +473,13 @@ footer.sticky-bottom {
       }
     }
   }
+}
+
+
+html.transition,
+html.transition *,
+html.transition *:before,
+html.transition *:after {
+    transition: all 650ms !important;
+    transition-delay: 0 !important;
 }
