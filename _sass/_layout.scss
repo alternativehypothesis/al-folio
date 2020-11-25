@@ -7,7 +7,9 @@
  body {
    padding-bottom: 70px;
    color: $text-color;
-   font-family: 'SFProDisplay'
+   font-family: 'SFProDisplay';
+   font-size: 17px;
+   font-weight: 400;
  }
 
  body.fixed-top-nav {
@@ -40,6 +42,7 @@ p
  {
   font-family: 'ProductSans';
   color: --var(--main-text-color);
+  font-weight:500;
  }
 
  .nav-item, .navbar
