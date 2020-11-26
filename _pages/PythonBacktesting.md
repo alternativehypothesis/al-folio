@@ -443,6 +443,13 @@ My intention is for you to **become completely independent and self-reliant when
 
 That's what I will help you achieve with this approach.
 
+<br>
+
+
+### Hardware Requirements for the course:
+
+
+You will essentially need a Laptop or a Desktop with at least 4GB RAM, 30-50GB of hard disk space.
 
 <br>
 
