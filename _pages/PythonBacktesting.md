@@ -120,7 +120,7 @@ Still, I was limited by my own coding skills. I needed a backtesting framework. 
 
 Then, I started learning Backtrader and testing different trading strategies. I have **tested 200+ strategies so far, and was able to discard most of them** as they all turned useless results.
 
-Eventually, I was able to come across a couple of very good strategies, that I have thoroughly backtested and deployed in the Indian market, trading indices profitably so far.
+Eventually, I was able to come across a couple of very good strategies, that I have thoroughly backtested and been trading in the Indian market currently.
 
 And, I want to help **cut your learning curve short**, in being able to backtest any idea you want to.
 
