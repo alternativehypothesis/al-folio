@@ -353,7 +353,6 @@ So, if you cannot agree with any of this, you're better off not signing up for t
 
 ## Course curriculum:
 <br>
-<br>
 
 ***NOTE: The exhaustive course curriculum with details about assignments, projects, and capstone will be shared with all the registrants once the registrations are closed.***
 
