@@ -567,6 +567,8 @@ You can send across the payment in any one of the following modes:
 
 ***A/C No:*** 282301000100793
 
+**A/C holder name:** SHRAVAN V
+
 **A/C type:** Savings Account
 
 **IFSC Code:** IOBA0002823
