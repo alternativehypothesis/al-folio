@@ -453,6 +453,39 @@ You will essentially need a Laptop or a Desktop with at least 4GB RAM, 30-50GB o
 
 <br>
 
+### Data Requirements for the course:
+
+
+For the course, freely available data will be used.
+
+This will consist of
+
+- EOD data from NSE archives - for options, futures, and stocks/indices.
+- IEOD Options data made available by Tradecatcher blog
+- IEOD futures and spot 1min data made available in Dropbox by a generous person who keeps uploading every day.
+
+I encourage backtesting in clean data free of errors and survivorship bias (depending on what's being tested). But
+I understand that such data will run through in Lakhs of rupees per instrument. So, it's upto you as and when you
+start testing.
+
+In my case, I use the data that's freely available, and generously forward test (50-100 trades live forward testing)
+for strategies whichever use instruments for which I don't have clean bias-free and error-free data.
+
+<br>
+
+### Time commitment required for the course:
+
+The daily lectures and assignments will take 1-2 hours tops. Lesser time if you pick up concepts fast.
+
+That said, daily work is required although you can be flexible on how you finish your daily assignments.
+
+Weekend mini-projects will take significant time investment, along with the QNA session to clarify doubts from that week.
+
+So, altogether, you can expect to devote 20 hours at least per week, for this course.
+
+If you're going through with the course and paying, I think you owe it to yourself to dedicate as much time as possible and
+spend time crafting your coding skills in tandem with the program.
+<br>
 <hr>
 
 ## What you'll save by taking this course:
