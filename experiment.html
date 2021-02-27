@@ -6,8 +6,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<!--<title>alternative hypothesis | alternative hypothesis</title>-->
-<title>alternative hypothesis | alternative hypothesis</title>
+<!--<title>alternative hypothesis | intraday experiment</title>-->
+<title>intraday experiment | alternative hypothesis</title>
 <meta name="description" content="Insights in the intersection of Finance, Business, Technology, and Self-Mastery.
 ">
 
@@ -24,7 +24,7 @@
 
 <link rel="stylesheet" href="/assets/css/main.css">
 <link rel="shortcut icon" type="image/png" href="/favicon.png">
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/experiment">
 
 <!-- Open Graph -->
 
@@ -70,7 +70,7 @@
           </li>
           
           <!-- Blog -->
-          <li class="nav-item active">
+          <li class="nav-item ">
             <a class="nav-link" href="/blog/">
               blog
               
@@ -91,9 +91,11 @@
           
           
           
-          <li class="nav-item ">
+          <li class="nav-item active">
               <a class="nav-link" href="/experiment">
                 intraday experiment
+                
+                <span class="sr-only">(current)</span>
                 
               </a>
           </li>
@@ -126,60 +128,66 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h1>Alternative Hypothesis</h1>
-    <h2>Insights in the intersection of Finance, Business, Technology, and Self-Mastery.</h2>
-  </div>
+  <header class="post-header">
+    <h1 class="post-title">intraday experiment</h1>
+    <p class="post-description"></p>
+  </header>
 
+  <article>
+    <p>I have begun an experiment to trade one of the systems I use for live trading, from my backtesting process.</p>
 
-  <ul class="post-list">
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2020/morality-in-investing/">Morality of investing and the grey area that's not very talked about.</a></h3>
-        <p class="post-meta">August 31, 2020</p>
-        <p>With ESG becoming even more popular with growing trends of fund houses leaning towards cutting off the companies that don't fit into ESG, it's important to discuss the morality angle built into the investing process.</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2020/made-400-percent-profits/">I made 400% profit in a year with Discretionary Trading. Here's how I did it!</a></h3>
-        <p class="post-meta">August 5, 2020</p>
-        <p>Last year, I started a personal challenge to push myself to get as many percentage points out of 24 Lakhs capital. I ended March 2020 with 400% returns. How did I do it? Well, read on!</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2020/systematic-approach-to-discretionary-trading/">A Systematic Way To Approach Discretionary Trading</a></h3>
-        <p class="post-meta">August 2, 2020</p>
-        <p>Here, I describe one of the ways you could avoid blowing up and get yourself going in the world of discretionary trading.</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2020/3-books-for-derivatives/">The only 3 books you need to master trading options and futures.</a></h3>
-        <p class="post-meta">July 31, 2020</p>
-        <p>These three books are the only ones you would need to read and internalize if you want to trade derivatives in any market actross the world.</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2020/paulgraham-work-people/">Work with people you want to become like.</a></h3>
-        <p class="post-meta">July 30, 2020</p>
-        <p>The quality of the people you work with is far more important than anything else, once you're at least 5 years into your professional career.</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2020/warning-tradetron/">A word of warning about Tradetron's strategy subscription services.</a></h3>
-        <p class="post-meta">July 30, 2020</p>
-        <p>Tradetron's strategy subscription service for algorithmically trading your capital sounds great on paper. But is it actually great? Or is there more to it?</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2020/zero-to-live-introduction/">From Zero to Live in Trading - Introduction</a></h3>
-        <p class="post-meta">July 25, 2020</p>
-        <p>In this multi-part series, we will look at systematic/mechanical trading strategies, how to go from scratch to live deployment step by step.</p>
-      </li>
-    
-  </ul>
+<p>I will be aggressively compounding with strict money management rules.</p>
 
-  
+<p>Some Simple Rules I am following for the system trading of this particular system:</p>
 
+<ol>
+  <li>
+    <p>2xATM option buying based on Futures level at the time of buying.</p>
+
+    <p>For ex: At the time of entry, if futures level is at 35525, and long signal is issued, I buy 2x35500CE
+ At the time of entry, if futures level is at 35575, and long signal is issued, I buy 2x35600CE</p>
+
+    <p>Vice versa for short signals</p>
+
+    <p>2xATM because when we enter, it’s likely to have 0.5x2 -&gt; 1 Delta in relationship with futures. This changes depending upon when we are entering and exiting. But in my backtests and forward tests, I have found that it helps track futures quite well, with 98% accuracy.</p>
+  </li>
+  <li>
+    <p>I don’t trade current weekly expiry on wednesday and thursday. On wednesday (or even by Tuesday afternoon),
+I shift to next weekly expiry options for trading. People I know who do option buying systematically (like Madan,
+Pavan, etc.,) stick with current weekly. But I just find it better to avoid theta decay during wednesdays and thursdays
+with next weekly if the trade is a loser.</p>
+
+    <p>Of course, backtest your system and see the probability of having a winning trade vs losing trade on wednesdays and thursdays.
+ If the probability of winning is more, then you can stick with current weekly. Otherwise, the next weekly doesn’t have much difference
+ in terms of delta tracking, but loses less on theta decay if position goes against you.</p>
+  </li>
+  <li>
+    <p>My system’s max drawdown was 49k odd rupees historically. So, in efforts to compound aggressively, I have started with 12 lots
+(6 lots futures) options, on a 3 lakh capital. This I am doing on my interactive brokers account. Maybe one or two years down the road,
+I shall share the equity curve from interactive brokers reports.</p>
+  </li>
+  <li>
+    <p>I will not resort to option selling at any point for this system - this is the most likely case. But this system has potential for spread type option selling.
+I will explore that separately, outside of this experiment. For this experiment, I’ll only stick with option buying.</p>
+  </li>
+  <li>
+    <p>Whatever execution optimization I do, I will share that here.</p>
+  </li>
+</ol>
+
+<p>I will either compound very well, or fail gloriously.</p>
+
+<p>If I compound really well, and manage to replicate the results that are achieved by the likes of Madan, Pawan, Guhan Ganesh, etc., you will have one more person who shows it’s possible, and you too can start.</p>
+
+<p>If I fail, I’ll fail gloriously and we can all laugh about it.</p>
+
+<p>Three Lakh rupees is not a disposable amount for me. It’s equal to 4 months of salary at my first job, a month or two’s profits at my business, etc., and so I’ll be a bit more cautious than normal.</p>
+
+<p>I have begun logging the trades along with screenshot of the broker terminal at EOD every day.</p>
+
+<p>You can find that here -&gt; <a href="https://docs.google.com/spreadsheets/d/1vAnGItVH8CX2wub2U26AiQoIsVqic_V3j_TMNaj0Q0M/edit?usp=sharing">System Trading Experiment Trade Log</a></p>
+
+  </article>
 
 </div>
 

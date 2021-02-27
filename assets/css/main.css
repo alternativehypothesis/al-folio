@@ -1,0 +1,184 @@
+/******************************************************************************* Variables used throughout the theme. To adjust anything, simply edit the variables below and rebuild the theme. *****************************************************************************/
+/* Set theme colors *************************/
+/****************************************************************************** Content *****************************************************************************/
+@font-face { font-family: 'ProductSans'; src: url("../font/ProductSans/ProductSans-Regular.ttf"); }
+@font-face { font-family: 'ProductSans'; src: url("../font/ProductSans/ProductSans-RegularItalic.ttf"); font-style: italic; }
+@font-face { font-family: 'ProductSans'; src: url("../font/ProductSans/ProductSans-Light.ttf"); font-weight: 300; }
+@font-face { font-family: 'ProductSans'; src: url("../font/ProductSans/ProductSans-LightItalic.ttf"); font-weight: 300; font-style: italic; }
+@font-face { font-family: 'ProductSans'; src: url("../font/ProductSans/ProductSans-Medium.ttf"); font-weight: 500; }
+@font-face { font-family: 'ProductSans'; src: url("../font/ProductSans/ProductSans-MediumItalic.ttf"); font-weight: 500; font-style: italic; }
+@font-face { font-family: 'ProductSans'; src: url("../font/ProductSans/ProductSans-Bold.ttf"); font-weight: 700; }
+@font-face { font-family: 'ProductSans'; src: url("../font/ProductSans/ProductSans-BoldItalic.ttf"); font-weight: 700; font-style: italic; }
+@font-face { font-family: 'ProductSans'; src: url("../font/ProductSans/ProductSans-Black.ttf"); font-weight: 800; }
+@font-face { font-family: 'ProductSans'; src: url("../font/ProductSans/ProductSans-BlackItalic.ttf"); font-weight: 800; font-style: italic; }
+@font-face { font-family: 'SFProDisplay'; src: url("../font/SFPro/SFProDisplay-Regular.ttf"); }
+@font-face { font-family: 'SFProDisplay'; src: url("../font/SFPro/SFProDisplay-RegularItalic.ttf"); font-style: italic; }
+@font-face { font-family: 'SFProDisplay'; src: url("../font/SFPro/SFProDisplay-Ultralight.ttf"); font-weight: 100; }
+@font-face { font-family: 'SFProDisplay'; src: url("../font/SFPro/SFProDisplay-UltralightItalic.ttf"); font-weight: 100; font-style: italic; }
+@font-face { font-family: 'SFProDisplay'; src: url("../font/SFPro/SFProDisplay-Thin.ttf"); font-weight: 200; }
+@font-face { font-family: 'SFProDisplay'; src: url("../font/SFPro/SFProDisplay-ThinItalic.ttf"); font-weight: 200; font-style: italic; }
+@font-face { font-family: 'SFProDisplay'; src: url("../font/SFPro/SFProDisplay-Light.ttf"); font-weight: 300; }
+@font-face { font-family: 'SFProDisplay'; src: url("../font/SFPro/SFProDisplay-LightItalic.ttf"); font-weight: 300; font-style: italic; }
+@font-face { font-family: 'SFProDisplay'; src: url("../font/SFPro/SFProDisplay-Medium.ttf"); font-weight: 500; }
+@font-face { font-family: 'SFProDisplay'; src: url("../font/SFPro/SFProDisplay-MediumItalic.ttf"); font-weight: 500; font-style: italic; }
+@font-face { font-family: 'SFProDisplay'; src: url("../font/SFPro/SFProDisplay-SemiBold.ttf"); font-weight: 600; }
+@font-face { font-family: 'SFProDisplay'; src: url("../font/SFPro/SFProDisplay-SemiBoldItalic.ttf"); font-weight: 600; font-style: italic; }
+@font-face { font-family: 'SFProDisplay'; src: url("../font/SFPro/SFProDisplay-Bold.ttf"); font-weight: 700; }
+@font-face { font-family: 'SFProDisplay'; src: url("../font/SFPro/SFProDisplay-BoldItalic.ttf"); font-weight: 700; font-style: italic; }
+@font-face { font-family: 'SFProDisplay'; src: url("../font/SFPro/SFProDisplay-Black.ttf"); font-weight: 800; }
+@font-face { font-family: 'SFProDisplay'; src: url("../font/SFPro/SFProDisplay-BlackItalic.ttf"); font-weight: 800; font-style: italic; }
+@font-face { font-family: "SFProText"; src: url("../font/SFPro/SFProText-Regular.ttf"); }
+@font-face { font-family: "SFProText"; src: url("../font/SFPro/SFProText-RegularItalic.ttf"); font-style: italic; }
+@font-face { font-family: "SFProText"; src: url("../font/SFPro/SFProText-Light.ttf"); font-weight: 300; }
+@font-face { font-family: "SFProText"; src: url("../font/SFPro/SFProText-LightItalic.ttf"); font-weight: 300; font-style: italic; }
+@font-face { font-family: "SFProText"; src: url("../font/SFPro/SFProText-Medium.ttf"); font-weight: 500; }
+@font-face { font-family: "SFProText"; src: url("../font/SFPro/SFProText-MediumItalic.ttf"); font-weight: 500; font-style: italic; }
+@font-face { font-family: "SFProText"; src: url("../font/SFPro/SFProText-SemiBold.ttf"); font-weight: 600; }
+@font-face { font-family: "SFProText"; src: url("../font/SFPro/SFProText-SemiBoldItalic.ttf"); font-weight: 600; font-style: italic; }
+@font-face { font-family: "SFProText"; src: url("../font/SFPro/SFProText-Bold.ttf"); font-weight: 700; }
+@font-face { font-family: "SFProText"; src: url("../font/SFPro/SFProText-BoldItalic.ttf"); font-weight: 700; font-style: italic; }
+@font-face { font-family: "SFProText"; src: url("../font/SFPro/SFProText-Heavy.ttf"); font-weight: 800; }
+@font-face { font-family: "SFProText"; src: url("../font/SFPro/SFProText-HeavyItalic.ttf"); font-weight: 800; font-style: italic; }
+body { padding-bottom: 70px; color: #111; font-family: 'SFProDisplay'; font-size: 17px; font-weight: 400; }
+
+body.fixed-top-nav { padding-top: 56px; }
+
+body.sticky-bottom-footer { padding-bottom: 0; }
+
+.container { max-width: 800px; }
+
+.profile img { width: 100%; }
+
+p { font-family: 'SFProDisplay'; }
+
+p strong { font-weight: 700; }
+
+li strong { font-weight: 700; }
+
+h1, h2, h3, h4, h5, h6 { font-family: 'ProductSans'; color: --var(--main-text-color); font-weight: 500; }
+
+.nav-item, .navbar { font-family: 'ProductSans'; }
+
+.sr-only { display: unset; position: absolute; width: 1px; height: 1px; clip: rect(0px, 0px, 0px, 0px); padding: 0px; margin: -1px; overflow: hidden; border-width: 0px; border-style: initial; border-color: initial; border-image: initial; }
+
+/****************************************************************************** Publications *****************************************************************************/
+/*****************************************************************************
+* Projects
+*****************************************************************************/
+/******************************************************************************* Styles for the base elements of the theme. *****************************************************************************/
+html, html[data-theme="light"] { --link-color: rgb(0, 112, 201); --main-background-color: hsl(0, 0%, 100%); --main-text-color: hsl(0, 0%, 20%); }
+
+html[data-theme="dark"] { --link-color: rgb( 100, 210, 255); --main-background-color: hsl(0, 0%, 20%); --main-text-color: hsl(0, 0%, 85%); }
+
+@media (prefers-color-scheme: dark) { html, html[data-theme="dark"] { --link-color: rgb( 100, 210, 255); --main-background-color: hsl(0, 0%, 20%); --main-text-color: hsl(0, 0%, 85%); }
+  html[data-theme="light"] { --link-color: rgb(0, 112, 201); --main-background-color: hsl(0, 0%, 90%); --main-text-color: hsl(0, 0%, 20%); } }
+body { background-color: var(--main-background-color); color: var(--main-text-color); }
+
+a { color: var(--link-color); }
+
+a, table.table a { color: #42B6F3; }
+a:hover, table.table a:hover { color: #42B6F3; text-decoration: underline; }
+a:hover:after, table.table a:hover:after { width: 100%; }
+
+.equation { margin-bottom: 1rem; text-align: center; }
+
+.caption { font-size: 0.875rem; margin-top: 0.75rem; margin-bottom: 1.5rem; text-align: center; }
+
+.profile .address { font-family: monospace; font-size: 1.2rem; }
+.profile .address p { margin: 0; }
+
+.navbar { box-shadow: none; border-bottom: 1px solid #e8e8e8; opacity: 0.95; background: var(--main-background-color) !important; }
+
+.navbar.navbar-light a:hover { text-decoration: none; }
+.navbar.navbar-light .navbar-nav .nav-item .nav-link { color: var(--main-text-color); }
+.navbar.navbar-light .navbar-nav .nav-item .nav-link:hover { color: #42B6F3; }
+.navbar.navbar-light .navbar-nav .nav-item.active > .nav-link { background-color: inherit; color: #42B6F3; font-weight: bolder; }
+.navbar.navbar-light .navbar-nav .nav-item.active > .nav-link:hover { color: #42B6F3; }
+.navbar.navbar-light .contact-icon { font-size: 2rem; }
+.navbar.navbar-light .contact-icon a { color: #424242; }
+.navbar.navbar-light .contact-icon a:hover { color: #42B6F3; }
+
+.navbar-light .navbar-brand { display: inline-block; padding-top: .3125rem; padding-bottom: .3125rem; margin-right: 1rem; font-size: 1.5rem; line-height: inherit; white-space: nowrap; color: var(--main-text-color); }
+
+.fa-moon, .fa-sun { color: var(--main-text-color); }
+
+.font-weight-bold { font-weight: 600 !important; color: #42B6F3; }
+
+.font-weight-lighter { font-weight: 100 !important; }
+
+.navbar-toggler .icon-bar { display: block; width: 22px; height: 2px; background-color: var(--main-text-color); border-radius: 1px; margin-bottom: 4px; transition: all 0.2s; }
+.navbar-toggler .top-bar { transform: rotate(45deg); transform-origin: 10% 10%; }
+.navbar-toggler .middle-bar { opacity: 0; }
+.navbar-toggler .bottom-bar { transform: rotate(-45deg); transform-origin: 10% 90%; }
+
+.navbar-toggler.collapsed .top-bar { transform: rotate(0); }
+.navbar-toggler.collapsed .middle-bar { opacity: 1; }
+.navbar-toggler.collapsed .bottom-bar { transform: rotate(0); }
+
+.news table td { font-size: 1rem; }
+
+.social { text-align: center; }
+.social .contact-icon { font-size: 2rem; }
+.social .contact-icon a { color: #42B6F3; }
+.social .contact-icon a:hover { color: #424242; }
+.social .contact-note { font-size: 0.8rem; }
+
+footer.fixed-bottom { text-align: center; color: #c2c2c2; background-color: #424242; font-size: 0.75rem; }
+footer.fixed-bottom .container { padding-top: 9px; padding-bottom: 8px; }
+footer.fixed-bottom a { color: white; }
+footer.fixed-bottom a:hover { color: #bae4fb; text-decoration: none; }
+
+footer.sticky-bottom { border-top: 1px solid #e8e8e8; padding-top: 40px; padding-bottom: 40px; font-size: 0.9rem; }
+
+.header-bar { display: none; border-bottom: 1px solid #e8e8e8; text-align: center; padding-top: 2rem; padding-bottom: 5rem; }
+.header-bar h1 { color: #42B6F3; font-size: 5rem; }
+
+.post-list { margin: 0; margin-bottom: 40px; padding: 0; }
+.post-list li { border-bottom: 1px solid #e8e8e8; list-style: none; padding-top: 2rem; padding-bottom: 2rem; }
+.post-list li .post-meta { color: #828282; font-size: 0.875rem; margin-bottom: 0; }
+.post-list li a { color: var(--main-text-color); text-decoration: none; }
+.post-list li a:hover { color: #42B6F3; }
+
+.text-right { text-align: center !important; }
+
+.pagination .page-item.active .page-link { background-color: #42B6F3; }
+.pagination .page-item.active .page-link:hover { background-color: #42B6F3; }
+
+.distill a:hover { border-bottom-color: #42B6F3; text-decoration: none; }
+
+.projects .grid-item { width: 250px; margin-bottom: 10px; }
+.projects .grid-item a { color: black; text-decoration: none; }
+.projects .grid-item a:hover { color: #42B6F3; }
+.projects .card img { width: 100%; }
+
+.subscribe-form { margin: 1.5em 0; padding: 2.5vw 3vw 3vw 3vw; border: 1px solid #e3e9ed; text-align: center; background: #fff; }
+
+.subscribe-form form { display: flex; flex-direction: column; justify-content: center; align-items: center; margin: 0 auto; max-width: 460px; }
+
+.subscribe-form .form-group { align-self: stretch; display: flex; }
+
+.subscribe-email { font-family: 'SFProText'; font-size: 15px; display: block; padding: 10px; width: 100%; border: 1px solid #dae2e7; color: #738a94; line-height: 1em; font-weight: 400; -webkit-user-select: text; -moz-user-select: text; -ms-user-select: text; user-select: text; border-radius: 5px; transition: border-color .15s linear; -webkit-appearance: none; }
+
+.subscribe-form button { font-variant: all-petite-caps; font-family: 'ProductSans'; font-size: 15px; position: relative; display: inline-block; margin: 0 0 0 10px; padding: 0 20px; height: 43px; outline: auto; color: #fff; font-size: 1rem; line-height: 39px; font-weight: 400; text-align: center; background: linear-gradient(#4fb7f0, #29a0e0 60%, #29a0e0 90%, #36a6e2); border-radius: 5px; -webkit-font-smoothing: subpixel-antialiased; }
+
+.publications { margin-top: 2rem; }
+.publications h2.year { color: #e8e8e8; border-top: 1px solid #e8e8e8; padding-top: 1rem; margin-top: 2rem; margin-bottom: -2rem; text-align: right; }
+.publications ol.bibliography { list-style: none; padding: 0; margin-top: 0; }
+.publications ol.bibliography li { margin-bottom: 1rem; }
+.publications ol.bibliography li .abbr { height: 2rem; margin-bottom: 0.5rem; }
+.publications ol.bibliography li .abbr abbr { display: inline-block; background-color: #42B6F3; padding-left: 1rem; padding-right: 1rem; }
+.publications ol.bibliography li span { display: block; }
+.publications ol.bibliography li .title { font-weight: bolder; }
+.publications ol.bibliography li .author a { border-bottom: 1px dashed #42B6F3; }
+.publications ol.bibliography li .author a:hover { border-bottom-style: solid; text-decoration: none; }
+.publications ol.bibliography li .author > em { border-bottom: 1px solid; font-style: normal; }
+.publications ol.bibliography li em.star { border-bottom: none; color: #42B6F3; font-style: normal; }
+.publications ol.bibliography li a.abstract, .publications ol.bibliography li a.bibtex { cursor: pointer; }
+.publications ol.bibliography li .hidden { font-size: 0.875rem; max-height: 0px; overflow: hidden; text-align: justify; -webkit-transition: 0.15s ease; -moz-transition: 0.15s ease; -ms-transition: 0.15s ease; -o-transition: 0.15s ease; transition: all 0.15s ease; }
+.publications ol.bibliography li .hidden p { line-height: 1.4em; margin: 10px; }
+.publications ol.bibliography li .hidden pre { font-size: 1em; line-height: 1.4em; padding: 10px; }
+.publications ol.bibliography li .hidden.open { max-height: 100em; -webkit-transition: 0.15s ease; -moz-transition: 0.15s ease; -ms-transition: 0.15s ease; -o-transition: 0.15s ease; transition: all 0.15s ease; }
+.publications ol.bibliography li span.abstract.hidden { border: dashed 1px white; }
+.publications ol.bibliography li span.abstract.hidden.open { border-color: #828282; }
+
+html.transition, html.transition *, html.transition *:before, html.transition *:after { transition: all 650ms !important; transition-delay: 0 !important; }

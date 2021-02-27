@@ -6,8 +6,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<!--<title>alternative hypothesis | alternative hypothesis</title>-->
-<title>alternative hypothesis | alternative hypothesis</title>
+<!--<title>alternative hypothesis | A word of warning about Tradetron's strategy subscription services.</title>-->
+<title>A word of warning about Tradetron's strategy subscription services. | alternative hypothesis</title>
 <meta name="description" content="Insights in the intersection of Finance, Business, Technology, and Self-Mastery.
 ">
 
@@ -24,7 +24,7 @@
 
 <link rel="stylesheet" href="/assets/css/main.css">
 <link rel="shortcut icon" type="image/png" href="/favicon.png">
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/blog/2020/warning-tradetron/">
 
 <!-- Open Graph -->
 
@@ -124,62 +124,81 @@
     <!-- Content -->
 
     <div class="container mt-5">
-      <div class="post">
+      
 
-  <div class="header-bar">
-    <h1>Alternative Hypothesis</h1>
-    <h2>Insights in the intersection of Finance, Business, Technology, and Self-Mastery.</h2>
-  </div>
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">A word of warning about Tradetron's strategy subscription services.</h1>
+    <p class="post-meta">July 30, 2020</p>
+  </header>
+
+  <article class="post-content">
+    <p><br /></p>
+
+<h4 id="guys-a-word-on-tradetron1-or-any-backtest--algo-trading-service-out-there">Guys, a word on @Tradetron1 or any backtest + algo trading service out there.</h4>
+
+<p>Go check out the <a href="https://tradetron.tech/strategy/102">Options SAR strategy</a> first.</p>
+
+<p>Some problems I see in this:</p>
+
+<ol>
+  <li>
+    <p>Look at this strategy. I don’t know what this strategy is, but right out of the bat, it shows the max DD as ~23% in one place, and about 77%.
+<br /><img class="img-fluid rounded z-depth-1" src="/assets/img/5_tradetron_1.png" />
+<br /><br /><img class="img-fluid rounded z-depth-1" src="/assets/img/5_tradetron_2.png" /></p>
+  </li>
+  <li>
+    <p>When you look at the PNL figures in the page, on a monthly breakup, you don’t know the actual PNL. Their figures haven’t taken into account the spread, slippage, and commissions.</p>
+  </li>
+  <li>
+    <p>Annual return of 1455.3% and max drawdown of 23.4% might look outstanding. But it also looks unrealistic. Like, heavily unrealistic.</p>
+  </li>
+  <li>
+    <p>One year of backtest may look wonderful. But, for you to know that a strategy has longevity and will stand the test of time, it needs at least 7-10 years of backtest. Or, if there are 1000 trades, the backtest report would be significant enough to proceed to the next step.</p>
+  </li>
+  <li>
+    <p>The total number of trades, points per trade - these two parameters are very important. If the strategy made 1400% on a year’s worth of trades that are over and above 500 trades, let’s do some math. 1400% of 30k is 420k. 420k in nifty points is 5600.
+<br /><br />Let’s assume the total trades per year to be 500 for illustration.
+<br /><br />Let’s keep 1 point as commission, 1 point slippage on either side, 1 point bid-ask spread on either side. That makes it 5 points.
+<br /><br />5*500 = 2500 points. Deduct 2500 points from the total 5600 points. This cuts the returns by 45%
+<br /><br />If you have 2100 points net, and 500 trades a year, how many points do you make per trade? 4.2 points give or take a few basis points. Not too good.</p>
+  </li>
+  <li>
+    <p>If you backtest this over last 10 years, I am damn sure that some years will go deep underwater. You just don’t know how much underwater it would go, if this strategy would wipe you out. If it historically wiped you out, it will most likely wipe you out this time too.</p>
+  </li>
+  <li>And so, the following things are important to see in a backtest report at least as a first pass filter.
+    <ul>
+      <li>At least 10 years of backtest.</li>
+      <li>No of trades</li>
+      <li>Max drawdown</li>
+      <li>Time drawdown</li>
+      <li>Time from max dd to new equity high</li>
+      <li>CAGR/maxDD at least &gt; 1.5</li>
+      <li>decent unlevered CAGR.</li>
+      <li>at least 7-10 points per trade if NIFTY</li>
+      <li>at least 20-30 points per trade if BANKNIFTY</li>
+    </ul>
+  </li>
+  <li>It’s important these backtests weren’t run on SPOT, but run on Futures. Option prices move based on Futures. So, unless the backtests ran on actual options data, backtests run on Futures should be your next best bet. If you backtest a strategy on NIFTY and it gives 3000 points per year, the same on futures would give ~1700-2000 pts.</li>
+</ol>
+
+<p>In my backtesting, this has been the approximate case. Account for 30-40% reduction in no of points backtesting in futures. That would be the case if you trade live too. When that happens, another 5 points per trade in commissions and slippage will happen. That would render these systems useless.</p>
+
+<p>There are lot of things that goes on in the background for backtesting. Unless you know the strategy and you have manually backtested it for at least 7-10 years, don’t trade it. Don’t sign up for online auto-trade platforms unless they provide comprehensive reports.</p>
+
+<p>Be especially wary of platforms that show mere 6 months backtest and ask you to trade it. I think Tradetron is a good initiative and effort. That said, just don’t jump in looking at these shiny equity charts and numbers, and commit money to trading these strategies.</p>
+
+<p>End of day, you’re going to conclude that most of these services are useless. They only separate you from your money. You’ll go only back to putting money in shitty mutual funds that give sub-par returns. So, just don’t experiment with money unless you know what you’re doing.</p>
+
+<p>With Tradetron or any similar service for that matter, first let the service exist for 2-3 years. At the end of 3 years, see their track record and then decide. Don’t jump in as beta test users. This is not some SaaS software to jump and test for brownie points. This is real money in line.</p>
+
+<p>Also, don’t backtest any option strategy for only one or two years and jump into trading. If you do that, you’ll find out the hard way that you made a mistake. Stop allowing greed to blind you and let some common sense seep in.</p>
 
 
-  <ul class="post-list">
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2020/morality-in-investing/">Morality of investing and the grey area that's not very talked about.</a></h3>
-        <p class="post-meta">August 31, 2020</p>
-        <p>With ESG becoming even more popular with growing trends of fund houses leaning towards cutting off the companies that don't fit into ESG, it's important to discuss the morality angle built into the investing process.</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2020/made-400-percent-profits/">I made 400% profit in a year with Discretionary Trading. Here's how I did it!</a></h3>
-        <p class="post-meta">August 5, 2020</p>
-        <p>Last year, I started a personal challenge to push myself to get as many percentage points out of 24 Lakhs capital. I ended March 2020 with 400% returns. How did I do it? Well, read on!</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2020/systematic-approach-to-discretionary-trading/">A Systematic Way To Approach Discretionary Trading</a></h3>
-        <p class="post-meta">August 2, 2020</p>
-        <p>Here, I describe one of the ways you could avoid blowing up and get yourself going in the world of discretionary trading.</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2020/3-books-for-derivatives/">The only 3 books you need to master trading options and futures.</a></h3>
-        <p class="post-meta">July 31, 2020</p>
-        <p>These three books are the only ones you would need to read and internalize if you want to trade derivatives in any market actross the world.</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2020/paulgraham-work-people/">Work with people you want to become like.</a></h3>
-        <p class="post-meta">July 30, 2020</p>
-        <p>The quality of the people you work with is far more important than anything else, once you're at least 5 years into your professional career.</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2020/warning-tradetron/">A word of warning about Tradetron's strategy subscription services.</a></h3>
-        <p class="post-meta">July 30, 2020</p>
-        <p>Tradetron's strategy subscription service for algorithmically trading your capital sounds great on paper. But is it actually great? Or is there more to it?</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2020/zero-to-live-introduction/">From Zero to Live in Trading - Introduction</a></h3>
-        <p class="post-meta">July 25, 2020</p>
-        <p>In this multi-part series, we will look at systematic/mechanical trading strategies, how to go from scratch to live deployment step by step.</p>
-      </li>
-    
-  </ul>
+  </article>
 
   
-
 
 </div>
 

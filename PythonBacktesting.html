@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!--<title>alternative hypothesis | System Trader Academy's Python Backtesting Course</title>-->
+<title>System Trader Academy's Python Backtesting Course | alternative hypothesis</title>
+<meta name="description" content="Insights in the intersection of Finance, Business, Technology, and Self-Mastery.
+">
+
+<!-- Bootstrap & MDB -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.17.0/css/mdb.min.css" integrity="sha256-/SwJ2GDcEt5382i8zqDwl36VJGECxEoIcBIuoLmLR4g=" crossorigin="anonymous" />
+
+<!-- Fonts & Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"  integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+<!--link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Playfair+Display:200,300,400,500,600,700|Roboto+Slab:100,300,400,500,700|Material+Icons"-->
+
+<!-- Styles -->
+
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="shortcut icon" type="image/png" href="/favicon.png">
+<link rel="canonical" href="/PythonBacktesting">
+
+<!-- Open Graph -->
+
+
+<!-- Jekyll Analytics -->
+
+
+  </head>
+
+  <body class="fixed-top-nav ">
+
+    <!-- Header -->
+
+    <header>
+
+    <!-- Nav Bar -->
+    <nav id="navbar" class="navbar navbar-light bg-white navbar-expand-sm fixed-top">
+    <div class="container">
+      
+      
+      
+      
+      
+      <a class="navbar-brand title font-weight-lighter" href="/">
+       <span class="font-weight-bold">alternative</span>   hypothesis
+      </a>
+      
+      <!-- Navbar Toogle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          <!-- About -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/">
+              start here
+              
+            </a>
+          </li>
+          
+          <!-- Blog -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/blog/">
+              blog
+              
+            </a>
+          </li>
+          
+          <!-- Other pages -->
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/experiment">
+                intraday experiment
+                
+              </a>
+          </li>
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/subscribe">
+                subscribe
+                
+              </a>
+          </li>
+          
+          
+          
+          
+          <button style="border:none; background:none;" onclick="modeSwitcher()"><a class="sr-only" id="theme-toggle"></a><i id="icon-toggle" class="fas fa-moon"></i></button>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+</header>
+
+
+    <!-- Content -->
+
+    <div class="container mt-5">
+      <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">System Trader Academy's Python Backtesting Course</h1>
+    <p class="post-description"></p>
+  </header>
+
+  <article>
+    <p><br />
+<br /></p>
+
+<p>One day, you learn that trading can make you rich.  You learn about few indicators that can tell you when to buy and sell. You probably learn about few strategies from friends and colleagues.</p>
+
+<p>You’re <strong>excited about making money</strong> in the stock market. Finally, <strong>you can give your parents a better life</strong>. Finally, you can <strong>buy your spouse all the luxuries</strong> they deserve.</p>
+
+<p>Only, when you finally learn and start trading, <strong>you’re not making money</strong>. Worse yet, <strong>you’re losing money.</strong> Hard earned, <strong>blood and sweat money</strong>.</p>
+
+<p>You’re confused. <strong>“What’s happening? I was supposed to make money.”</strong></p>
+
+<p><strong><em>“But, the trader on Youtube said he made 55 lakhs in a month!”</em></strong></p>
+
+<p><strong><em>“But, but, the trader on Twitter said he made 1 crore in 15 days!”</em></strong></p>
+
+<p>If you didn’t come here, you’d most likely have gone into the rabbit hole of trading psychology. But <strong>all the trading psychology in the world won’t matter unless you have an edge</strong>.</p>
+
+<p>That’s where programming comes in.</p>
+<hr />
+
+<p><br /></p>
+<h1 align="center">
+Stop losing money trading untested strategies</h1>
+<hr />
+
+<p><br /></p>
+
+<p>You can finally <strong>stop losing</strong> money, trading untested strategies.</p>
+
+<p>Identify if what you’re currently trading has an edge. <strong>Stop trading strategies without an edge.</strong></p>
+
+<p>You can finally <strong>stop paying buggy algo-trading platforms</strong> to automate your strategies.</p>
+
+<p>You can <strong>stop letting other people control your trading results</strong> directly or indirectly.</p>
+
+<p><br /></p>
+
+<h2 id="do-you-want-to-thoroughly-test-any-trading-idea-you-can-think-of">Do you want to thoroughly test any trading idea you can think of?</h2>
+<p><br /></p>
+
+<p>Learn Python and relevant libraries. <strong>It will not a pipe dream anymore.</strong></p>
+
+<p><br /></p>
+
+<h2 id="are-you-tired-of-paying-different-service-providers-hefty-subscription-fees-just-to-be-able-to-backtest-different-strategies">Are you tired of paying different service providers hefty subscription fees just to be able to backtest different strategies?</h2>
+<p><br /></p>
+
+<p>Stop testing the <strong>same strategies everyone else is testing</strong>.</p>
+
+<p><strong>Go beyond the regular strategies</strong> available on Fintwit, YouTube, etc.</p>
+
+<p><strong><em>Test any strategy you can think up.</em></strong></p>
+
+<p><br /></p>
+
+<h2 id="do-you-want-to-be-able-to-go-beyond-basic-strategies-and-test-any-combination-of-strategies-indicators-price-patterns-you-can-think-of">Do you want to be able to go beyond basic strategies and test any combination of strategies, indicators, price patterns you can think of?</h2>
+
+<p><br /></p>
+
+<p>You can test</p>
+<ul>
+  <li>Option spreads &amp; strategies</li>
+  <li>Directional Strategies</li>
+  <li>Non-directional strategies</li>
+  <li>Trend-Following Strategies</li>
+  <li>Mean-reversion strategies</li>
+</ul>
+
+<p><strong>Any mechanical strategy</strong> you can think up, <strong>you name it</strong>.</p>
+
+<p><br /></p>
+
+<h2 id="do-you-want-to-uncouple-your-time-from-trading-effort-and-automate-the-entire-process">Do you want to uncouple your time from trading effort, and automate the entire process?</h2>
+
+<p><br /></p>
+
+<p>With the skills gained from this course, <strong><em>you can automate your trading process.</em></strong></p>
+
+<p>You can <strong>finally stop looking at the monitor throughout the trading hours</strong>.</p>
+
+<p><strong>Divorce yourself from your time</strong> and money-making trading process.</p>
+
+<p>Let your system do the trading for you.</p>
+
+<p>If you want all this, you have come to the right place.</p>
+
+<p><br /></p>
+
+<h1 align="center">
+System Trader Academy - Backtesting with Python</h1>
+
+<h3 align="center">
+Future Proof yourself in trading, with coding</h3>
+
+<p><br /><br /></p>
+
+<h2 id="who-am-i--why-should-you-listen-to-me">Who am I &amp; why should you listen to me?</h2>
+
+<p>I’m Shravan from Chennai. I worked as a Software Developer at PayPal in their Risk Mitigation product team until 2017 July.</p>
+
+<p>After venturing into the stock markets in 2016 and swing trading profitably until 2018, I cashed out and focused on my business. By 2019, I picked up trading again, this time encouraged by an acquaintance who is an intraday trader.</p>
+
+<p>Discretionary intraday trading didn’t work for me and I was in a sizeable drawdown. Then, I <strong>found a seminar of Mark Douglas</strong> on Youtube. It completely changed my perspective.</p>
+
+<p>Took Madan Kumar’s advice from one of his tweets and <strong>started manually backtesting a strategy</strong> that a friend had suggested from a forum.</p>
+
+<p><strong>I spent 6 months testing this strategy</strong>.</p>
+
+<p>All the while, I wondered, “what if there were better strategies? How do I find such strategies?” I <strong><em>traded this backtested strategy, made some money in the March correction, lost some money thereafter, and ended up close to breakeven by June 2020.</em></strong></p>
+
+<p>I decided that I should be able to test many strategies and wanted to have my pick. <strong>Used my Python skills to start backtesting ideas</strong>.</p>
+
+<p>Still, I was limited by my own coding skills. I needed a backtesting framework. That’s when I discovered BackTrader library. It’s an <strong>open source backtesting framework</strong> which is the only one that’s <strong>platform agnostic, user friendly, and has a strong community</strong>.</p>
+
+<p>Then, I started learning Backtrader and testing different trading strategies. I have <strong>tested 200+ strategies so far, and was able to discard most of them</strong> as they all turned useless results.</p>
+
+<p>Eventually, I was able to come across a couple of very good strategies, that I have thoroughly backtested and been trading in the Indian market currently.</p>
+
+<p>And, I want to help <strong>cut your learning curve short</strong>, in being able to backtest any idea you want to.</p>
+
+<p><br /></p>
+
+<h1 align="center">
+The Challenges</h1>
+
+<p><br /></p>
+
+<h5 id="if-youre-like-most-traders-in-the-market-youre-facing-one-or-more-of-the-following-challenges-right-now">If you’re like most traders in the market, you’re facing one or more of the following challenges right now.</h5>
+
+<p><br /></p>
+
+<h2 id="trading-the-strategies-other-people-share-but-not-finding-much-success-with-them">Trading the strategies other people share, but not finding much success with them.</h2>
+<p><br /></p>
+
+<p>Twitter, YouTube, Traderji forums, and even other trading forums. You lurk everywhere. You look up to the visibly successful traders. <strong>You hope they will spill one of their strategies</strong> that they use to make lakhs and crores in profits.</p>
+
+<p>When one such trader shares their trades, you follow the trade blindly. <strong>When they share a strategy in one of their interviews, you start trading it immediately.</strong></p>
+
+<p>You make <strong>profits in first one or two trades</strong>. You’re happy you figured it out. <strong><em>Then, the strategy starts going haywire. You start losing money. Soon, you can’t take the losses and you abandon the strategy.</em></strong></p>
+
+<p><br /></p>
+
+<h2 id="having-to-pay-a-hefty-amount-for-backtesting-tools-with-limited-features">Having to pay a hefty amount for backtesting tools with limited features</h2>
+<p><br /></p>
+
+<p>If you are already backtesting different strategies, <strong>you’re limited by the tools you use for backtesting.</strong></p>
+
+<p>**Tradingview, Stockmock, Streak, Opstra, you name it. **</p>
+
+<p>All of them have their limitations.</p>
+<ul>
+  <li>They all have <strong>limited data</strong></li>
+  <li>They can all test <strong>very limited combination of strategies</strong></li>
+  <li>With some platforms, <strong><em>you don’t know what the data source is, and whether the data has any errors.</em></strong></li>
+  <li>You <strong>don’t get comprehensive backtest reports</strong> with all the parameters you want to look for, in a backtest.</li>
+  <li><strong>Number of backtests you can run per day is limited, and you have to pay money for every additional backtest.</strong></li>
+  <li>You don’t know the integrity of the backtest. You can’t run advanced methods to verify if a backtest was curve fitted or not.</li>
+  <li>
+    <p>In addition to all these, <strong>you can’t backtest many strategies in each platform.</strong></p>
+
+    <p>For instance,</p>
+
+    <p><strong><em>On Streak, you can’t backtest futures trading strategies.</em></strong></p>
+
+    <p><strong><em>On TradingView, you can’t test option strategies.</em></strong></p>
+
+    <p>And, there are similar limitations to each backtesting platform.</p>
+
+    <p><br /></p>
+  </li>
+</ul>
+
+<h2 id="so-many-people-are-testing-the-same-strategies-you-are-on-backtest-platforms-wheres-the-edge">So many people are testing the same strategies you are, on backtest platforms. Where’s the edge?</h2>
+
+<p><br /></p>
+
+<p>When a lot of people are doing the same thing, and <strong>testing the same strategies, the space eventually gets crowded.</strong></p>
+
+<p>This is <strong>more applicable to intraday timeframes</strong>, which is what most people seem to be looking for strategies at.</p>
+
+<p>So, <strong><em>where will your edge come from</em></strong>? If you’re doing the same thing everyone else is doing, you will have significant competition.</p>
+
+<p><br /></p>
+
+<h2 id="depending-on-developers-and-buggy-algo-trading-platformsservices-for-automation">Depending on developers and buggy algo-trading platforms/services for automation.</h2>
+
+<p><br /></p>
+
+<p>If you want to automate, you only have two ways right now.
+<br /></p>
+
+<h5 id="either-pay-a-developer-to-do-it">Either pay a developer to do it.</h5>
+
+<p>This could take anywhere from 25000 to 1L rupees, depending on the developer.
+<br /></p>
+
+<h5 id="or-join-an-algo-trading-platform">Or join an algo-trading platform</h5>
+
+<p>Or an algo-trading service-provider (you know who the popular ones are), and deploy your strategy with them.</p>
+
+<p>Once deployed, <strong>you hope everything goes right.</strong></p>
+
+<p><strong><em>Only that, it doesn’t.</em></strong></p>
+
+<p><strong>Slippages, outages, server issues, lags, broker integration issues, service-provider’s client-side issues, and so on.</strong></p>
+
+<p>The issues are endless.</p>
+
+<p><br /></p>
+
+<h2 id="lack-of-control-over-the-end-to-end-process-in-your-trading-from-backtesting-to-live-deployment">Lack of control over the end-to-end process in your trading, from backtesting to live deployment.</h2>
+
+<p><br /></p>
+
+<p>At every step of the way, <strong>you are dependent on someone else.</strong></p>
+
+<p>You also pay these people for their services or their platforms.</p>
+
+<p><strong>All for what? Mostly shoddy results.</strong></p>
+
+<p>With most of these platforms and service providers,</p>
+<ul>
+  <li>you’re only <strong>acting as a beta tester</strong></li>
+  <li><strong>being used as a guinea-pig</strong> for them to test their service/product</li>
+  <li>alongside all of this, <strong>you’re staking your real, hard earned money.</strong></li>
+</ul>
+
+<p><br /></p>
+
+<h3 id="enough-is-enough">Enough is enough.</h3>
+
+<p><br /></p>
+
+<p>You don’t feel very good losing money due to other people’s mistakes, let alone your own.</p>
+
+<p>But, <strong><em>if you’re constantly picking people/products whose mistakes cost you your money, then it’s your mistake too.</em></strong></p>
+
+<h3 id="lets-fix-that-right-away"><strong>Let’s fix that right away.</strong></h3>
+<p><br /></p>
+
+<h2 id="by-the-end-of-this-backtesting-with-python-course"><strong>By the end of this</strong> Backtesting with Python <strong>course,</strong></h2>
+
+<p><br /></p>
+
+<ul>
+  <li>You will <strong>take back the control</strong> over your end to end trading pipeline in your hands.</li>
+  <li>You will <strong>stop losing money</strong> trading untested strategies, and strategies without any semblance of an edge.</li>
+  <li>You will <strong>be able to test any strategy you can think up</strong>.</li>
+  <li>You will <strong>be able to test any number of strategies</strong>, without any limit.</li>
+  <li>You can <strong>finally stop paying through your nose</strong> to the backtesting platforms for the limited features they offer.</li>
+  <li>You will <strong>be able to objectively verify any strategy a trader claims to be profitable</strong>. This could be a system seller, or a workshop trainer/trader. Anyone who gives you a strategy, you can test and objectively verify if it works.</li>
+  <li>You will <strong>have the skills required to automate many of your routine tasks</strong> with the help of Python.</li>
+  <li>You will be able to pick up the requisite skills required to <strong>automate your strategies</strong> and separate yourself from the trading process forever.</li>
+  <li>You will finish this course with <strong>a framework and a mental-model for algorithmic-thinking</strong>, logic, and applying that logic using coding.</li>
+  <li>You will have <strong>a network and a community of fellow traders</strong> who are walking the systematic trading path, regularly accessible on the community forum.</li>
+  <li>You will <strong>be able to exchange ideas</strong>, vet different trading strategies and ideas with fellow traders, share resources that help you, <strong>get to know the resources that helped other people in their trading,</strong> etc., all through this community of traders</li>
+</ul>
+
+<p>While these are some of the core benefits of this course that you will take away, the following are some of the potential benefits you could take away if you’re interested.</p>
+
+<ul>
+  <li>You will <strong>be able to pick up Data Science and Machine Learning skills</strong> with the foundations you build in this program.</li>
+  <li>You will <strong>be able to write automation scripts for mundane activities</strong> that you do in your job (if you’re a job goer)</li>
+  <li>You will <strong>be able to pick up any framework built on Python</strong>, understand it, and utilize it for its intended purposes.</li>
+  <li>You will <strong>be able to read other people’s code, use StackOverflow, and understand any Python based documentation</strong>.</li>
+</ul>
+
+<p>The benefits do not stop with this.</p>
+
+<p>These are just the core benefits expected out of this course.</p>
+
+<p><strong><em>If you dedicate yourself to the course and the community interactions, there’s no telling what level you could take your trading game to. The potential is endless.</em></strong></p>
+
+<p><br /></p>
+
+<h1 align="center">
+Who is this course for?</h1>
+
+<p><br />
+Just about anyone can sign up for this course.</p>
+
+<ul>
+  <li>Amateurs who are just entering the stock markets, and want to trade profitably</li>
+  <li>Investors who want to learn Python to backtest their strategies</li>
+  <li>Expert discretionary traders who want to go full systematic</li>
+  <li>Beginner to intermediate level traders who want to improve their trading results</li>
+  <li>Programmers who want to get into trading, but don’t know where to start</li>
+  <li>Those who want to future proof themselves for the technological advancements happening in the stock markets currently, and to not be left out</li>
+</ul>
+
+<p>are some of the intended audience.</p>
+
+<p>That said, <strong><em>this course doesn’t need for you to know trading or programming already</em></strong>.</p>
+
+<p>The course curriculum is being built keeping in mind the non-tech people. <strong>This course will tech-enable you to improve your trading.</strong></p>
+
+<p>So,</p>
+
+<ul>
+  <li><strong>If you don’t have prior programming knowledge,</strong> nothing to worry. We’ll be covering from the very basics in Python.</li>
+  <li><strong>If you already have programming knowledge,</strong> you will be able to thoroughly brush up your basics, alongside learning the backtesting framework and the relevant content.</li>
+  <li><strong>If you’re an amateur in the stock markets,</strong> nothing to worry. This course assumes you have zero knowledge about the markets. All we need for this course will be covered in the course itself.</li>
+  <li><strong>If you’re an expert in trading in the stock markets,</strong> you will be able to walk away with improved perspective, <strong>having future proofed yourself.</strong></li>
+</ul>
+
+<p><br /></p>
+
+<h1 align="center">
+Who is this course NOT for?</h1>
+
+<p><br /></p>
+
+<p>If you belong to one of the following categories of people, this course is <strong>strictly not for you</strong>. Avoid signing up if any of the following sounds like you.</p>
+
+<ul>
+  <li>You <strong>expect to be spoonfed everything in the curriculum</strong> and you want to just see and do only whatever I do on the video, and get the results.</li>
+  <li>You <strong>expect to be a proficient Python Jedi by the end of 12 weeks</strong> of course and be able to get a job anywhere.</li>
+  <li>You <strong>want to take this course and join a quant trading firm.</strong></li>
+  <li>You <strong><em>don’t want to put in the effort</em></strong> to do the daily coding assignments, weekly mini-projects and the capstone project.</li>
+  <li>You <strong><em>want me to give you a profitable strategy</em></strong> (which I can’t and won’t be able to)</li>
+  <li>You <strong><em>want me to test a strategy for you</em></strong>. (I am not going to feed you fish. I am going to teach you to fish for yourself.)
+<br /></li>
+</ul>
+
+<h3 id="let-me-explain-why-you-shouldnt-sign-up-if-youre-one-among-the-above-mentioned-cases">Let me explain why you shouldn’t sign up if you’re one among the above mentioned cases.</h3>
+<p><br /></p>
+
+<ul>
+  <li>
+    <p>There will be a lot of Googling and StackOverflow-ing in this course. One of the expected outcomes of this course is for you to be able to <strong><em>search</em></strong> for everything you need and find solutions. Almost any problem you can come across has been faced by someone else who has shared their solutions openly on the web. One of my intentions <strong><em>is to teach you how to use the web to fend for yourself.</em></strong></p>
+  </li>
+  <li>
+    <p>You can’t be an expert in anything with just 12 weeks of effort, let alone be a Python Jedi. I have been coding on and off in Python, Java, and C++ for years now. And, I am not an expert at any of those languages. What I can do is make use of those languages to accomplish any outcome I want programmatically.</p>
+
+    <p><strong><em>That should be your goal with this course too: to be able to pick up any library, any problem, and work with Python to get to your intended solution.</em></strong></p>
+  </li>
+  <li>
+    <p>I can’t give you a profitable strategy. I don’t believe in doing that. Plus, it takes a lot of effort to even arrive at one. I had to test 200+ strategies to arrive at one or two that worked decently enough to deploy. I would be disrespecting the effort it takes, if I were to share a strategy.</p>
+  </li>
+  <li>
+    <p>I can’t test a strategy for you. That’s what this course is for - to enable you to test strategies yourself. You want to pay someone everytime you want a strategy tested, or do you want to save that money and test it all yourself?</p>
+  </li>
+  <li>
+    <p>The course as I’ll explain below is 25% lectures 75% projects driven. It requires significant effort and discipline from your end. At one end of the course is hard work, discipline, commitment, and daily coding practice. At the other end is having all the abilities listed above in the section titled <strong>“By the end of this course”</strong>.</p>
+  </li>
+</ul>
+
+<p>So, if you cannot agree with any of this, you’re better off not signing up for this course.</p>
+
+<p><strong><em>On the other hand, if you want to improve your trading, and make a career out of it, this course will be a very much value add for your arsenal of skills.</em></strong>
+<br /><br /></p>
+
+<h1 align="center">What's in the course?</h1>
+
+<p><br /></p>
+
+<ul>
+  <li>12 weeks of course</li>
+  <li>3 modules</li>
+  <li>Pre-recorded videos delivered every day</li>
+  <li>Assignments delivered every day</li>
+  <li>A compound assignment every week</li>
+  <li>Live QNA session on Zoom every Sunday</li>
+  <li>One project per module</li>
+  <li>A final capstone project</li>
+  <li>A Discord community group for exchanging ideas, solving doubts, and discussing questions regarding the course.</li>
+</ul>
+
+<p><br /></p>
+
+<h2 id="course-curriculum">Course curriculum:</h2>
+<p><br /></p>
+
+<p><strong><em>NOTE: The exhaustive course curriculum with details about assignments, projects, and capstone will be shared with all the registrants once the registrations are closed.</em></strong></p>
+
+<p><strong>An overview of the curriculum is given below:</strong></p>
+<hr />
+
+<h3 id="module-1-python-from-the-ground-up">Module 1: Python from the ground up</h3>
+<hr />
+
+<p>Introducing with the basic environment setup, this module will cover the fundamental building blocks required for Python programming.</p>
+
+<p>From working with different data types, to learning how to think iteratively, this module will teach you the constructs required for you to do scripting in Python.</p>
+<hr />
+
+<h3 id="module-2-building-blocks-for-backtesting">Module 2: Building Blocks for Backtesting</h3>
+<hr />
+
+<p>This module will introduce backtesting in its entirety. You will learn about how to think about backtesting, a proper framework based approach to backtesting, understanding backtest reports, etc.</p>
+
+<p>Alongside, you will learn <strong>functional and object oriented programming</strong> in Python building on the foundations laid out in the first module.</p>
+
+<p>This module <strong>will introduce Backtrader framework’s constructs and will take you through the basic process of testing simple price and indicator based strategies</strong> with Backtrader.</p>
+
+<hr />
+
+<h3 id="module-3-deep-dive-backtesting-with-backtrader">Module 3: Deep Dive Backtesting with Backtrader</h3>
+<hr />
+
+<p>In this module, you will learn the parts of the Backtrader framework and each section of Backtrader required to completely piece together a backtest engine.</p>
+
+<p>You will learn to <strong>handle different types of data, backtest different kinds of strategies</strong>, and work with a scalable system.</p>
+
+<p>You will also understand <strong>how to approach optimizing a strategy, generate thorough backtest reports, customise the report</strong> according to your requirements.</p>
+
+<p>This module will also introduce you the live automation feature in Backtrader which you can use when you <strong>build your strategy automation for live trading.</strong></p>
+
+<p><br /></p>
+<hr />
+
+<h2 id="course-methodology">Course Methodology:</h2>
+<hr />
+
+<p><br /></p>
+
+<h3 id="project-based-learning">Project based learning:</h3>
+
+<p>This course will be <strong>heavily loaded with assignments and projects.</strong></p>
+
+<p>Learning Python theoretically wouldn’t mean anything if you can’t translate the learning into a practical skill.</p>
+
+<p><strong>So, the content and work in this course will be divided 25-75.</strong></p>
+
+<p>It will be <strong>25% lectures and teaching</strong> (which includes the live session) and <strong>75% assignments, projects, community interactions</strong>, getting into the pool and figuring things out.
+<br /><br /></p>
+
+<h3 id="working-with-financial--time-series-data-from-the-very-first-day">Working with Financial &amp; Time Series data from the very first day</h3>
+
+<p>It’s very important for you to learn different ways to handle and manipulate the financial and time-series data.</p>
+
+<p>You will predominantly be working with OHLCV data (Open-High-Low-Close-Volume) with relevant timestamps. This is how most of the trading data is structured.</p>
+
+<p>So, it’s only fair to start working on it from the very first day. The assignments will be structured in such a way that each day you will work on some aspect of the time series data and understand the process piece by piece.
+<br /><br /></p>
+<h3 id="piece-meal-approach">Piece meal approach:</h3>
+
+<p>Dumping all the content on you every week once and expecting you to pace yourself through the content is not how I will run the course.</p>
+
+<p>That’s very unproductive and will not help you achieve your objectives with the course.</p>
+
+<p>That said, if you want to do that, that’s completely upto you.</p>
+
+<p>But let me tell you the best way to pick up Python programming.</p>
+
+<p>By the end of 3 months, when the course ends, you need to have accomplished all the intended outcomes of the course.
+For that, it requires a piece-meal approach.</p>
+
+<ul>
+  <li>This means, <strong>small, bite-sized lessons and assignments every day</strong>, building on top of each other.</li>
+  <li>Those assignments will lead to the compound mini-project every week.</li>
+  <li>Those mini-projects will all form building blocks of a major project.</li>
+  <li>These major projects will contribute to the final capstone project.</li>
+</ul>
+
+<p>This will ensure you stay in touch with coding every day.</p>
+
+<p>They say it takes 21 days to build a habit.</p>
+
+<p>It actually <strong>takes 60-90 days to build a habit and keep it.</strong></p>
+
+<p>That’s the reason the course is also 90 days.</p>
+
+<p>My intention is for you to <strong>become completely independent and self-reliant when it comes to testing any strategy</strong>, and putting together any missing pieces by yourself, given the documentation for any library.</p>
+
+<p>That’s what I will help you achieve with this approach.</p>
+
+<p><br /></p>
+
+<h3 id="hardware-requirements-for-the-course">Hardware Requirements for the course:</h3>
+
+<p>You will essentially need a Laptop or a Desktop with at least 4GB RAM, 30-50GB of hard disk space.</p>
+
+<p><br /></p>
+
+<h3 id="data-requirements-for-the-course">Data Requirements for the course:</h3>
+
+<p>For the course, freely available data will be used.</p>
+
+<p>This will consist of</p>
+
+<ul>
+  <li>EOD data from NSE archives - for options, futures, and stocks/indices.</li>
+  <li>IEOD Options data made available by Tradecatcher blog</li>
+  <li>IEOD futures and spot 1min data made available in Dropbox by a generous person who keeps uploading every day.</li>
+</ul>
+
+<p>I encourage backtesting in clean data free of errors and survivorship bias (depending on what’s being tested). But
+I understand that such data will run through in Lakhs of rupees per instrument. So, it’s upto you as and when you
+start testing.</p>
+
+<p>In my case, I use the data that’s freely available, and generously forward test (50-100 trades live forward testing)
+for strategies whichever use instruments for which I don’t have clean bias-free and error-free data.</p>
+
+<p><br /></p>
+
+<h3 id="time-commitment-required-for-the-course">Time commitment required for the course:</h3>
+
+<p>The daily lectures and assignments will take 1-2 hours tops. Lesser time if you pick up concepts fast.</p>
+
+<p>That said, daily work is required although you can be flexible on how you finish your daily assignments.</p>
+
+<p>Weekend mini-projects will take significant time investment, along with the QNA session to clarify doubts from that week.</p>
+
+<p>So, altogether, you can expect to devote 20 hours at least per week, for this course.</p>
+
+<p>If you’re going through with the course and paying, I think you owe it to yourself to dedicate as much time as possible and
+spend time crafting your coding skills in tandem with the program.
+<br /></p>
+<hr />
+
+<h2 id="what-youll-save-by-taking-this-course">What you’ll save by taking this course:</h2>
+
+<hr />
+
+<h4 id="expected-outcome--savings">Expected Outcome &amp; Savings</h4>
+
+<ol>
+  <li>Avoid any other Advanced Python course:      <strong>10,000/- (at least)</strong></li>
+  <li>Avoid subscription fees to Stockmock:        <strong>18,000/- per annum</strong></li>
+  <li>Avoid subscription fees to TradingView:      <strong>15,000/- per annum</strong></li>
+  <li>Avoid subscription fees to Zerodha Streak:       <strong>12,000/- per annum</strong></li>
+  <li>Avoid losses you’ll make trading strategies without an edge:     <strong>5L-10L over next 5 years</strong></li>
+  <li>Eventually be able to arrive at strategies with an edge:     <strong>Profit potential is only upto how you scale</strong></li>
+  <li>Have the ability to automate mechanical strategies yourself:     <strong>25,000-50,000/- per strategy dev cost</strong>
+<br /><br />
+<strong>TOTAL SAVINGS</strong> :     <strong>15,00,000/- at least, over the next 5 years.</strong></li>
+</ol>
+
+<p>If you consider how many workshops and seminars you can avoid, the cost savings will be even higher.</p>
+
+<p><br /></p>
+
+<hr />
+
+<h2 id="fees">Fees:</h2>
+<hr />
+
+<p>This being the very First Cohort, the fees of the program for three months is discounted to <del>Rs. 10,000/-</del>  <strong>Rs. 8,000/-</strong></p>
+
+<p><strong>You are trusting me enough to sign up</strong>. That trust means a lot, given that this is the first batch of the first course I am taking up. <strong>That trust is what I price highly above everything else</strong>, and hence the discounted fees.</p>
+
+<p>That said, <mark style="background-color:#42B6F3"> THE PRICE WILL GO UP FOR THE SECOND COHORT AND ONWARDS. </mark></p>
+
+<h3 id="benefits-of-signing-up-in-the-first-cohort">Benefits of signing up in the First Cohort:</h3>
+
+<ul>
+  <li><strong>Lifetime access to the Support community</strong> (It will be initially on Discord, later once we have the second cohort and further, will decide on a self-hosted forum)</li>
+  <li>Access to the second cohort, the peer group, and all the materials in the second edition of the course.</li>
+  <li>Private group access to discuss strategies, receive feedbacks, exchange ideas, and group test strategies that would take more effort.</li>
+  <li>Ample opportunity to ask any and all questions you need on the 12 x Zoom QNA sessions.</li>
+</ul>
+
+<p><br /></p>
+
+<h2 id="course-dates--registration">Course Dates &amp; Registration:</h2>
+
+<p><strong>The course will start in January. Exact dates will be announced by the last week of December.</strong></p>
+
+<p><strong>Registrations</strong> will be open <strong><em>from November 27, 2020 until December 20, 2020.</em></strong></p>
+
+<p><strong>Registrations will be closed before 20th December if the number of slots available are filled.</strong></p>
+
+<p>The course will run for 3 months (12 weeks). So, plan accordingly.</p>
+
+<p><br /></p>
+
+<h2 id="moneyback-guarantee">Moneyback Guarantee:</h2>
+
+<p>You came here because you trust me based on the kind of person I am on Twitter.</p>
+
+<p>But, this is your hard earned money we’re talking about.</p>
+
+<p><ins><strong>So, here’s my promise to you:</strong></ins> If you <strong><em>watch the video lessons, attend the zoom QNA sessions, do the assignments and the projects, interact with the community, and still don’t find the course valuable</em></strong>, I’ll gladly refund your full payment within 30 days of the start of the course.</p>
+
+<p><br /></p>
+
+<h2 id="how-do-i-pay">How do I pay?</h2>
+
+<p>You can send across the payment in any one of the following modes:</p>
+
+<p><strong>Fees to be paid:</strong> Rs. 8,000/- <strong>(Rupees Eight Thousand Only)</strong></p>
+
+<h4 id="google-pay">GOOGLE PAY</h4>
+
+<p><strong>9751645546</strong></p>
+
+<hr />
+
+<h4 id="neftimps">NEFT/IMPS</h4>
+
+<p><strong><em>A/C No:</em></strong> 282301000100793</p>
+
+<p><strong>A/C holder name:</strong> SHRAVAN V</p>
+
+<p><strong>A/C type:</strong> Savings Account</p>
+
+<p><strong>IFSC Code:</strong> IOBA0002823</p>
+
+<p><strong>Bank/Branch:</strong> Indian Overseas Bank, Mudichur Branch</p>
+
+<p>Once the payment is done, email the payment receipt/acknowledgement to <strong>shravan.venkataraman100793@gmail.com.</strong></p>
+
+<p><br /></p>
+
+<h2 id="contact">CONTACT</h2>
+
+<p>For any queries, doubts, questions, that aren’t addressed in this page, please contact me at:</p>
+
+<p><strong>E-mail:</strong> shravan.venkataraman100793@gmail.com</p>
+
+<p><strong>Phone/Whatsapp:</strong> 9751645546</p>
+
+<p>Please send your mail with subject <strong>“Python Backtesting Course Queries”</strong> for your questions.</p>
+
+<p>For sharing <strong>payment receipt/transaction acknowledgement</strong>, please have the subject of the mail as <strong><em>“Python Backtesting Course Payment”.</em></strong></p>
+
+  </article>
+
+</div>
+
+    </div>
+
+    <!-- Footer -->
+
+    
+<footer class="fixed-bottom">
+  <div class="container mt-0">
+    &copy; Copyright 2021 alternative hypothesis.
+    Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+
+    
+  </div>
+</footer>
+
+
+
+  </body>
+
+  <!-- Load Core and Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.0/umd/popper.min.js" integrity="sha256-OH05DFHUWzr725HmuHo3pnuvUUn+TJuj8/Qz9xytFEw=" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.17.0/js/mdb.min.js"  integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+<!-- Load Common JS -->
+<script src="/assets/js/common.js"></script>
+
+<!-- Code Syntax Highlighting -->
+<link rel="stylesheet" href="https://gitcdn.link/repo/jwarby/jekyll-pygments-themes/master/github.css" />
+
+
+<!-- Load KaTeX -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.11.1/katex.min.css" integrity="sha256-V8SV2MO1FUb63Bwht5Wx9x6PVHNa02gv8BgH/uH3ung=" crossorigin="anonymous" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.11.1/katex.min.js" integrity="sha256-F/Xda58SPdcUCr+xhSGz9MA2zQBPb0ASEYKohl8UCHc=" crossorigin="anonymous"></script>
+<script src="/assets/js/katex.js"></script>
+
+
+
+<!-- Load Mansory & imagesLoaded -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js" integrity="" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+
+<!-- Project Cards Layout -->
+<script type="text/javascript">
+  // Init Masonry
+  var $grid = $('.grid').masonry({
+    gutter: 10,
+    horizontalOrder: true,
+    itemSelector: '.grid-item',
+  });
+  // layout Masonry after each image loads
+  $grid.imagesLoaded().progress( function() {
+    $grid.masonry('layout');
+  });
+</script>
+
+
+
+
+
+<!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-58296745-4', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+
+</html>
