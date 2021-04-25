@@ -566,6 +566,8 @@ For the Live Automation module, the first batch members will have a fee of ~~Rs.
 
 For testimonials from the first batch participants, check the <a href="Testimonials">**Testimonials**</a> page.
 
+Whatever questions you have - please see the <a href="FAQ">**Frequently Asked Questions(FAQ)**</a> page before sending me a message.
+
 
 ### Benefits of signing up to this Cohort:
 

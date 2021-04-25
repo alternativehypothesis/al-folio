@@ -49,11 +49,6 @@ Here are some testimonials from the first batch students. Not exactly testimonia
 <br>
 
 <div class="col-sm mt-3 mt-md-0">
-    <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/T9.png">
-</div>
-<br>
-
-<div class="col-sm mt-3 mt-md-0">
     <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/assets/img/T10.png">
 </div>
 <br>
